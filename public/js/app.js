@@ -11,7 +11,7 @@ weatherForm.addEventListener(`submit`, (event) => {
 
     const location = search.value
 
-    messageOne.textContent = `Loading...`
+    messageOne.innerHTML = `<img class="load" src="/img/loading.gif">`
     messageTwo.textContent = ``
 
 
